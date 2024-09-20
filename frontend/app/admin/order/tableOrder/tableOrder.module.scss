@@ -1,0 +1,82 @@
+/** @format */
+
+.wrapper {
+	margin-top: 32px;
+	background-color: white;
+	overflow: hidden;
+}
+.title {
+	padding: 24px 32px 16px 32px;
+	border-bottom: 1px solid rgb(196, 190, 190);
+}
+.name-col {
+	padding: 10px 0;
+}
+.name-rows {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	img {
+		width: 100px;
+		height: 100px;
+		object-fit: contain;
+	}
+}
+.btn-delete,
+.btn-edit {
+	padding: 8px;
+	font-size: 20px;
+	cursor: pointer;
+	margin-left: 4px;
+	display: block;
+}
+.btn-delete:hover {
+	color: red;
+}
+.btn-edit:hover {
+	color: green;
+}
+.hidden-text {
+	display: block;
+	display: -webkit-box;
+	height: 16px * 1.3 * 1;
+	font-size: 16px;
+	line-height: 1.3;
+	-webkit-line-clamp: 1; /* số dòng hiển thị */
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.hidden-text + .hidden-text {
+	margin-bottom: 8px;
+}
+.delete-order {
+	position: relative;
+	right: 60%;
+	background: black;
+	padding: 6px;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 500;
+}
+.delete-order:hover {
+	opacity: 0.8;
+}
+.details {
+	margin-top: 10px;
+	position: relative;
+	right: 38%;
+	background: rgb(30, 175, 30);
+	padding: 10px;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 500;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}

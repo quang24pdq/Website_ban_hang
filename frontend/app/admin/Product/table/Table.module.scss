@@ -1,0 +1,38 @@
+/** @format */
+
+.wrapper {
+	margin-top: 32px;
+	background-color: white;
+	overflow: hidden;
+}
+.title {
+	padding: 24px 32px 16px 32px;
+	border-bottom: 1px solid rgb(196, 190, 190);
+}
+.name-col {
+	padding: 10px 0;
+}
+.name-rows {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	img {
+		width: 100px;
+		height: 100px;
+		object-fit: contain;
+	}
+}
+.btn-delete,
+.btn-edit {
+	padding: 8px;
+	font-size: 20px;
+	cursor: pointer;
+	margin-left: 4px;
+	display: block;
+}
+.btn-delete:hover {
+	color: red;
+}
+.btn-edit:hover {
+	color: green;
+}

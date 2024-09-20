@@ -1,0 +1,34 @@
+/** @format */
+
+.wrapper {
+	text-align: center;
+	position: fixed;
+	bottom: 115px;
+	right: -40px;
+	display: flex;
+	flex-direction: row-reverse;
+	cursor: pointer;
+	color: black;
+	font-size: 11px;
+	font-weight: 900;
+	transform: rotate(-90deg);
+	z-index: 99;
+	opacity: 1;
+	transition: visibility 0.4s, opacity 0.5s linear;
+	span {
+		float: left;
+		margin: 4px 10px;
+		font-size: 12px;
+	}
+}
+.d-flex {
+	display: flex;
+}
+.btn {
+	display: flex;
+	width: 25px;
+	height: 25px;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+}

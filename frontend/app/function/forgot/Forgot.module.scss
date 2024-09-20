@@ -1,0 +1,71 @@
+.wrapper {
+  background-color: #e9ebee;
+}
+.form {
+  background-color: white;
+  margin-top: 200px;
+  width: 500px;
+  height: 300px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.title {
+  padding: 20px 20px 16px 20px;
+  font-size: 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border-bottom: 1px solid #aaa;
+}
+.content {
+  display: flex;
+  margin: 16px;
+  margin-bottom: 24px;
+  flex-direction: column;
+
+  .content-title {
+    font-size: 17px;
+    margin-bottom: 16px;
+  }
+  input {
+    height: 52px;
+    padding: 16px 0 16px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid #ccd0d5;
+    outline: none;
+  }
+}
+.button {
+  padding: 16px;
+  border-top: 1px solid #aaa;
+  display: flex;
+  flex-direction: row-reverse;
+  .btn {
+    padding: 0 20px;
+  }
+  .btn-cancel {
+    background-color: #e4e6eb;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 36px;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  .btn-search {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 36px;
+    margin-left: 8px;
+    color: white;
+    font-weight: bold;
+    &:hover {
+      background-color: #216fdb;
+    }
+  }
+}

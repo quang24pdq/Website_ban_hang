@@ -1,0 +1,145 @@
+/** @format */
+
+.page-product {
+	margin-top: var(--height-header);
+	display: flex;
+	width: 100%;
+}
+.container {
+	width: 100%;
+}
+.color {
+	display: block;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	background: red;
+	margin-right: 8px;
+	cursor: pointer;
+	color: transparent;
+	border: none;
+	outline: none;
+	img {
+		height: 26px;
+		width: 26px;
+		margin-top: 1px;
+	}
+	// &:focus {
+	// 	border: 2px solid #8e8d8d !important;
+	// }
+}
+.size {
+	width: 28px;
+	height: 28px;
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 8px;
+	font-size: 14px;
+	cursor: pointer;
+
+	// &:focus {
+	// 	border: 1px solid #8e8d8d;
+	// }
+}
+.quantity {
+	width: 110px;
+}
+.control-quantity {
+	border: 1px solid rgba(0, 0, 0, 0.09);
+	cursor: pointer;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2px;
+
+	.add,
+	.subs {
+		color: #999999;
+		width: 32px;
+		height: 32px;
+		border-right: 1px solid rgba(0, 0, 0, 0.09);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.numbers {
+		border-right: 1px solid rgba(0, 0, 0, 0.09);
+		width: 50px;
+		height: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 16px;
+	}
+	.add {
+		border: none;
+	}
+}
+.btn-addCart,
+.btn-buy {
+	font-size: 15px;
+	text-transform: capitalize;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.03);
+	border-radius: 2px;
+	border: 1px solid #d0011b;
+	color: #d0011b;
+	background: rgba(208, 1, 27, 0.08);
+	padding: 13px 0;
+	span {
+		margin-right: 10px;
+		font-size: 20px;
+	}
+}
+.btn-buy {
+	background: #d0011b;
+	color: white;
+}
+.list {
+	li {
+		padding: 10px 15px 10px 0;
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 600;
+		border-bottom: 1px solid #e8eaea;
+		cursor: pointer;
+		transition: all 0.1s linear;
+	}
+}
+.hover\:bg-list:hover {
+	background-color: #f0f0f0;
+}
+.active {
+	border-bottom: 1px solid black !important;
+}
+.detail {
+	visibility: hidden;
+	opacity: 0;
+	li {
+		padding-left: 20px;
+	}
+	li::marker {
+		content: "✦";
+		font-size: 13px;
+	}
+}
+.detailPolicy {
+	visibility: hidden;
+	opacity: 0;
+	font-size: 14px;
+	li {
+		margin-bottom: 4px;
+	}
+}
+.information {
+	visibility: hidden;
+	opacity: 0;
+}
+.visible {
+	visibility: visible !important;
+	opacity: 1 !important;
+}

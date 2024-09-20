@@ -1,0 +1,42 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600;900&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap");
+.wrapper {
+	width: 84%;
+	height: calc(100% - 50px);
+	position: fixed;
+	top: 50px;
+	left: 16%;
+	background-color: #ebeaea;
+	padding: 50px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.shared {
+	border-radius: 8px;
+	height: 170px;
+	padding: 26px 16px 26px 24px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	justify-content: space-between;
+	.title {
+		span {
+			font-size: 34px;
+			font-weight: bold;
+		}
+		p {
+			font-size: 24px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+	}
+}
+.users {
+	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.products {
+	background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+.orders {
+	background-image: linear-gradient(-225deg, #5271c4 0%, #b19fff 48%, #eca1fe 100%);
+}

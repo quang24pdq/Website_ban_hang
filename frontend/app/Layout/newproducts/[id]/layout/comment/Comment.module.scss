@@ -1,0 +1,108 @@
+/** @format */
+.wrapper {
+	margin: 0 140.5px;
+	margin-top: 30px;
+	padding: 30px 25px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+	border-radius: 0.125rem;
+	overflow: hidden;
+	background: #f5f5f5;
+	overflow: visible;
+}
+.product-rating-overview {
+	background-color: #fffbf8;
+	min-height: 5rem;
+	border: 1px solid #f9ede5;
+	color: #d0011b;
+	width: 80%;
+}
+.product-rating-overview-filters {
+	div {
+		padding: 0 10px;
+		margin: 5px 8px 5px 0;
+		border: 1px solid;
+		height: 36px;
+		min-width: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 14px;
+		color: rgba(0, 0, 0, 0.87);
+		text-transform: capitalize;
+		border-radius: 2px;
+		border: 1px solid rgba(0, 0, 0, 0.09);
+		user-select: none;
+		cursor: pointer;
+	}
+	div:focus {
+		border-color: var(--brand-primary-color, #ee4d2d);
+		fill: var(--brand-primary-color, #ee4d2d);
+		color: var(--brand-primary-color, #ee4d2d);
+	}
+}
+.add-comment {
+	margin-top: 12px;
+	background-color: #ee4d2d;
+	border-color: #cd3011;
+	color: #fff;
+	font-family: -apple-system, Helvetica Neue, Helvetica, Roboto, Droid Sans, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	border-radius: 4px;
+	border: 1px solid;
+	padding: 8px 10px;
+	text-transform: capitalize;
+}
+.wrapper-content {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+	margin-top: 16px;
+}
+.content {
+	width: 60%;
+}
+.average-star {
+	font-size: 22px;
+}
+.avatar {
+	position: relative;
+	top: 8px;
+	height: 40px;
+	margin-right: 20px;
+	img {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+}
+.info-star {
+	color: #d0011b;
+}
+.comment {
+	font-size: 15px;
+}
+.Q3JZ62 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.d-none {
+	display: none;
+}
+.d-block {
+	display: block;
+}
+.out-video {
+	width: 320px;
+	height: 170px;
+}
+.image-comment {
+	width: 72px;
+	height: 72px;
+	object-fit: cover;
+	cursor: pointer;
+}
+.image-comment + .image-comment {
+	margin-left: 12px;
+}

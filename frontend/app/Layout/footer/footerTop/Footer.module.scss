@@ -1,0 +1,78 @@
+/** @format */
+
+.footer {
+	padding: 20px 0;
+	overflow: hidden;
+}
+.wrapper {
+	padding: 0 100px;
+	margin: 0 40.5px;
+}
+.contact,
+.fanpage,
+.map {
+	padding: 0 20px;
+}
+.call__buy {
+	margin-bottom: 40px;
+}
+.title,
+.sp__title {
+	margin: 0 0 10px;
+	font-size: 13px;
+	color: var(--black);
+	text-transform: uppercase;
+	font-weight: 500;
+	cursor: auto;
+}
+.phone,
+.sp__phone {
+	display: block;
+	color: #252a2b;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1.8px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.working__time {
+	margin-top: 5px;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.map__title,
+.fanpage__title {
+	margin: 0 0 13px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #252a2b;
+	text-transform: uppercase;
+}
+.map__images,
+.fanpage__images {
+	max-width: 100%;
+}
+.social {
+	margin: 5px 0 10px;
+	display: flex;
+}
+.social__face,
+.social__youtube,
+.social__instagram {
+	width: 30px;
+	font-size: 20px;
+	display: flex;
+	cursor: pointer;
+	transition: opacity 150ms linear, color 150ms linear, background 150ms linear;
+}
+.social__face:hover {
+	color: #23527c;
+}
+.social__instagram:hover {
+	color: red;
+}
+.social__youtube:hover {
+	color: red;
+}

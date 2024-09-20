@@ -1,0 +1,55 @@
+/** @format */
+
+.wrapper {
+	margin-top: var(--height-header);
+}
+.title {
+	p {
+		font-size: 22px;
+		font-weight: 600;
+		text-align: center;
+	}
+	span {
+		line-height: 22px;
+	}
+}
+.sort {
+	float: right;
+	font-size: 15px;
+	span {
+		display: inline;
+	}
+	select {
+		border: none;
+		outline: none;
+		margin-left: 12px;
+		font-size: 15px;
+		appearance: none;
+		-webkit-appearance: none;
+		border: none;
+		background: white;
+		background-image: url(https://file.hstatic.net/1000360430/file/down_1c848d6224514fddb82fcdd24bed41a1.png);
+		background-position: right;
+		background-repeat: no-repeat;
+		background-size: 10px;
+		background-position-x: 80%;
+	}
+}
+.loader {
+	width: 48px;
+	height: 48px;
+	border: 5px dotted black;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+	animation: rotation 2s linear infinite;
+}
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

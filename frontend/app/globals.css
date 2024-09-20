@@ -1,0 +1,99 @@
+/** @format */
+@import url("https://rsms.me/inter/inter.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+p,
+span,
+del,
+h3,
+button {
+	user-select: none;
+}
+:root {
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
+	--white-color: #fff;
+	--black-color: #000;
+	--height-header: 58px;
+	--brand-primary-color: #d0011b;
+}
+.slick-slider {
+	.slick-prev,
+	.slick-next {
+		z-index: 2 !important;
+		font-size: 42px !important;
+		width: 42px;
+		height: 42px;
+		color: #222224 !important;
+	}
+	.slick-prev {
+		left: 2%;
+	}
+	.slick-next {
+		right: 2%;
+	}
+}
+
+.slick-prev:before {
+	content: "" !important;
+}
+.slick-next:before {
+	content: "" !important;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+	color: #222224 !important;
+}
+.slick-dots {
+	bottom: 28px !important;
+}
+.slick-dots li {
+	margin: 0 8px !important;
+}
+li.slick-active > div {
+	border-color: black !important;
+}
+.recharts-text {
+	/* transform: translateY(10px); */
+}
+.pagination-product {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 20px;
+	color: white;
+	a {
+		--size: 36px;
+		--margin: 6px;
+		margin: 0 var(--margin);
+		border-radius: 6px;
+		background: #202020;
+		max-width: auto;
+		min-width: var(--size);
+		height: var(--size);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		padding: 0 6px;
+		font-family: "Inter", sans-serif;
+		font-weight: 500;
+		border: none;
+		outline: none;
+		&:hover {
+			opacity: 0.7;
+		}
+		&:active {
+			opacity: 0.7;
+		}
+	}
+	.active {
+		background-color: #23adade1;
+		color: white;
+	}
+}

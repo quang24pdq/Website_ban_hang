@@ -1,0 +1,79 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600;900&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap");
+.wrapper {
+	width: 84%;
+	height: calc(100% - 50px);
+	position: fixed;
+	top: 50px;
+	left: 16%;
+	background-color: #ebeaea;
+	padding: 50px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.shared {
+	border-radius: 8px;
+	height: 200px;
+	padding: 26px 16px 26px 24px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	justify-content: space-between;
+	.title {
+		span {
+			font-size: 24px;
+			font-weight: bold;
+		}
+		p {
+			font-size: 20px;
+			font-weight: 700;
+		}
+		text {
+			margin-top: 8px;
+			display: block;
+			font-size: 22px;
+			font-weight: 300;
+		}
+	}
+	.icon {
+		width: 70px;
+		height: 70px;
+		background-color: rgb(255, 255, 255);
+		border-radius: 50%;
+		display: flex;
+		align-self: center;
+		align-items: center;
+		justify-content: center;
+	}
+}
+.users {
+	background-color: #68ae00;
+	.icon {
+		color: #68ae00;
+		font-size: 22px;
+	}
+}
+.products {
+	background-color: #fc8213;
+	.icon {
+		color: #fc8213;
+		font-size: 24px;
+	}
+}
+.orders {
+	background-color: #1877f2;
+	.icon {
+		color: #1877f2;
+		font-size: 24px;
+	}
+}
+.online {
+	background-color: #f8cb00;
+	.icon {
+		color: #f8cb00;
+		font-size: 24px;
+	}
+}
+.box1 {
+	margin-top: 12px;
+}
